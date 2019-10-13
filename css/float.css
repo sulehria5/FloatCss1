@@ -1,0 +1,57 @@
+div{
+    border:1px solid rgb(231, 13, 13);
+    text-align: center;
+    color: #fff;
+    overflow: auto;
+    
+}
+.box{
+    height:40px;
+}
+
+.box1{
+    background:#3498db;
+    float:left;
+}
+.box2{
+   
+    background:#d35400;
+    float: right; 
+}
+.box3{
+    
+    clear:both;
+    background: #1abc9c;
+}
+div:nth-last-of-type(2){
+
+
+}
+
+.box4{
+    background: #3498db;
+    float: right;
+}
+.box5{
+    background: #d35400;
+    float: right;
+    clear: right;
+}
+.box6{
+   clear: both;
+    background: #1abc9c; 
+}
+.box7{
+    background: #3498db;
+    float: right;
+}
+.box8{
+    background: #d35400;
+    float: right;
+    clear: right;
+}
+.box9{
+    background: #1abc9c;
+    float: right;
+    clear: right;
+}
